@@ -1,0 +1,19 @@
+<form>
+  <h4>友達の写真や動画をチェックしよう</h4>
+  <div class="short-comment">------------------　または　------------------</div>
+  <%= form_tag("/signup") do %>
+  <!--<div class="form-group">-->
+  <!--  <input name="email"  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス">-->
+  <!--</div>-->
+  <div class="form-group">
+    <input name="full_name" class="form-control" id="exampleInputName1" placeholder="フルネーム">
+  </div>
+  <div class="form-group">
+    <input name="user_name"  class="form-control" id="exampleInputUserName1" placeholder="ユーザーネーム">
+  </div>
+  <div class="form-group">
+    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="パスワード">
+  </div>
+  <button type="submit" class="btn btn-primary">登録する</button>
+  <% end %>
+</form>

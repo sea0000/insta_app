@@ -1,0 +1,60 @@
+body {
+    background-image: url(images/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+form {
+    width: 350px;
+    margin: 50px auto;
+    border:1px solid #a9a9a9;
+    padding: 30px;
+}
+
+.short-comment, h4 {
+        color: #999;
+        text-align: center;
+    }
+.btn-primary {
+    background-color: #3897f0;
+    color: white;
+    width: 290px;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    .header-logo {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        float:left;
+        :hover {
+        text-decoration: none;
+    }
+        }
+    
+    
+    .header-menus {
+        display: flex;
+    }
+        
+    li {
+        float: left;
+        margin: 30px 20px;
+        font-size: 15px;
+        list-style: none;
+    
+    
+     a{
+        color: #999999;
+     a:hover {
+        color: #b0c4de;
+        text-decoration: none;
+    }
+   }
+  }
+}
